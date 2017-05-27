@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="app.js"></script>
+ <link rel="stylesheet" href="style.css">
+
+<style>
+
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+
+
+
+<div id="tables">
+<body>
+
+  <h1 class="quizHeader">How well do you know where you live?</h1>
+   <h2> The Orlando Quiz</h2>
+  <div><span id="time"></span></div>
+	<table style="width:583px">
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">How was the famous Lake Eola formed?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">Sinkhole</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Meteor</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Man Made Hole</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>An Explosion</label>
+    		</ul>
+	  	</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question">What shoe size does the famous Orlando Magic player Shaquille O'neal wear?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>15</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">17</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>14</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>18</label>
+	    	</ul>
+	  	</div>
+	  </td>
+	</tr>
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">3. Which of these movies was filmed in Orlando?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>SHARKNADO 3</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">All of these</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>The Waterboy</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Apollo 13</label>
+	    	</ul>
+			
+		</div>
+	  </td>
+	  <td>
+	  	<div>
+	  		<p class="question"> How deep is lake Eola?   </p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>40 Feet</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">80 feet</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>60 feet</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>100 feet</label>
+    		</ul>
+	  	</div>
+		  
+	  </td>
+	</tr>
+	</table>
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+  
+
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+
+
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+</div>
+</body>
+</html>
